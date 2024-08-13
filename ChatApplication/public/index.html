@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>QuickChat</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="title">Welcome to QuickChat  <span id="name"></span></h1>
+    <div class="bodyContainer">
+      
+    <div class="outer-container">
+      <div class="container">
+  
+        <div id="login" class="section">
+          <input
+          type="text"
+          id="usernameInput"
+          autocomplete="off"
+          placeholder="Enter your Username"
+          class="input"
+          />
+          <button onclick="login()" class="button"><span id="continue">Continue</span></button>
+        </div>
+        <div id="chat" class="section" style="display:none;">
+          <div id="groupSelection" class="group-selection" style="display:block;">
+            <input type="text" id="groupNameInput" class="input" autocomplete="off" placeholder="Enter Group Key">
+            <button onclick="joinChatGroup()" class="button">Join Chat</button>
+          </div>
+          <div id="chatGroup" style="display:none;">
+            <h2 class="group-header">
+              Chat Group: <span id="currentGroup"></span>
+            </h2>
+            <div class="actualmessage">
+              <ul id="messages" class="messages"></ul>
+            </div>
+            <div style="display: flex;" class="sendtext">
+              <input type="text" id="messageInput" class="input" autocomplete="off" />
+         
+            <button onclick="sendMessage()" id="sendMessageBtn" class="button">Send</button>
+            </div>
+           
+            <!-- <p id="typingStatus" class="typing-status"></p> -->
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    
+  </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.js"></script>
+  </body>
+</html>
