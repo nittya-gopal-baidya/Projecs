@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>x.com</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-black  text-white ">
+    <!-- <div class="mx-52 "> -->
+    <div class=" flex container  justify-center  ">
+        <div class="first w-1/4">
+            <div class="logo invert my-4 mx-16">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-16y2uox r-lwhw9o">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="sidebar flex justify-end ">
+                <ul class="flex flex-col text-xl px-11 space-y-2 font-bold">
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            home</span>Home
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            search</span>Explore
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            notifications</span>Notifications
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            mail</span>Messege
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            pen_size_3</span>Grok
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            bookmarks</span>Bookmarks
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            groups</span>Communities
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+
+                        <span class="material-symbols-outlined">
+                            workspace_premium
+                        </span>Premium
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="material-symbols-outlined">
+                            admin_panel_settings
+                        </span>Verified Orgs
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            person</span>Profile
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2 w-fit px2 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class=" text-3xl material-symbols-outlined ">
+                            more_horiz</span>More
+                    </li>
+                    <div class="posts bg-[#1d9bf0] text-white rounded-full mx-2 px-28 py-2 font-bold w-full ">Posts
+                    </div>
+                    <div class="flex justify-between rounded-2xl hover:bg-gray-800 px-1 w-full"
+                        style="margin-top: 3rem;">
+                        <div class=" flex-col items hover:cursor-pointer px-4 p-3  ">
+                            <div class="text-gray-200 flex font-bold text-sm ">
+                                <img class="rounded-full h-10" src="./src/images/profile_pic.jpg" alt="profile_pic">
+                                <div class=" username_id flex-col">
+                                    <div class="px-2 ">Nittya Goapal Baidya
+                                    </div>
+                                    <div class=" text-gray-400 font-normal text-sm ">@xnittya</div>
+                                </div>
+                                <div class="h-6 w-6">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i" data-testid="icon-verified">
+                                      <path d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="#829aab" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                  </div>
+                                  
+                                
+
+                            </div>
+
+                        </div>
+                        
+                        <span class=" text-3xl material-symbols-outlined hover:cursor-pointer">
+                            more_horiz</span>
+
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+        <div class="second w-2/4 border border-gray-500  border-y-black">
+            <div class="top  border border-t-black border-gray-500 border-x-black flex items-center ">
+                <div class="left w-1/2 flex justify-center py-4 font-bold hover:bg-gray-900 hover:cursor-pointer relative">For me
+                    <div class="absolute bg-blue-500 w-12 h-1 rounded-full bottom-0 left-[44%] z-10"></div>
+                </div>
+                <div class="right w-1/2 flex justify-center py-4 font-bold hover:bg-gray-900 hover:cursor-pointer ">Following</div>
+                 
+            </div>
+            <div class=" w-full border border-x-black border-t-black border-b-gray-600 flex">
+                <div class="  pl-5 pt-3 pb-10 profile_pic">
+                    <img class="rounded-full h-10" src="./src/images/profile_pic.jpg" alt="">
+                </div>
+                <div class="whatshappening pt-4 text-gray-600 w-full border border-x-black border-t-black">
+                    <input class="h-3/6 w-full rounded-full text-2xl pl-6 bg-black outline-none" type="text" placeholder="What is happening?!">
+                    <div class="text-blue-500 text-sm flex ml-9">
+                        <div>
+                            <span class="  material-symbols-outlined">
+                                public
+                                </span>
+                        </div>
+                        <div>Everyone can reply</div>
+                    </div>
+                </div>
+                
+                <div class="bg-black  text-blue-500 ">
+                    <div class="flex justify-around">
+                        <span class=" material-symbols-outlined">
+                            gallery_thumbnail
+                            </span>
+                            <span class="material-symbols-outlined">
+                                gif_box
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    list
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        sentiment_satisfied
+                                        </span>
+                                        <span class="material-symbols-outlined">
+                                            calendar_clock
+                                            </span>
+                                            <span class="material-symbols-outlined">
+                                                location_on
+                                                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third  w-1/4">
+            <div class="search m-3 ">
+
+                <input type="text" class="w-3/4 rounded-full bg-gray-900 text-white px-4 py-2" placeholder="Search">
+            </div>
+            <div class="premimum m-3 bg-slate-950 w-3/4 border py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3">Subscribe to Premium</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quibusdam!</p>
+                <div class="subscribe bg-blue-600 text-white rounded-full mx-2 px-5 py-2 font-bold w-28 hover:cursor-pointer hover:bg-blue-900">Subscribe</div>
+            </div>
+            <div class="whatshappening m-3 bg-slate-950 w-3/4 border py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3">Whats happening</h1>
+                <div class="items hover:bg-gray-800 hover:cursor-pointer px-4 p-3">
+                    <div class="text-gray-200 text-sm">Trending in World</div>
+                    <div class="font-bold">#trendinindia</div>
+                    <div class="text-gray-200 text-sm">210.8K posts</div>
+                </div>
+                <div class="items hover:bg-gray-800 hover:cursor-pointer px-4 p-3">
+                    <div class="text-gray-200 text-sm">New in Tech</div>
+                    <div class="font-bold">#tech</div>
+                    <div class="text-gray-200 text-sm">256M posts</div>
+                </div>
+                <div class="items hover:bg-gray-800 hover:cursor-pointer px-4 p-3">
+                    <div class="text-gray-200 text-sm">Why most of the Tech Giant CEOs are from India</div>
+                    <div class="font-bold">#educationofindia</div>
+                    <div class="text-gray-200 text-sm">21.8K posts</div>
+                </div>
+            </div>
+            <div class="whotofollow m-3 bg-slate-950 w-3/4 border 1px py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3">Who to follow</h1>
+                <div class="flex justify-between hover:bg-gray-800 ">
+                    <div class=" flex-col items hover:cursor-pointer px-4 p-3">
+                        <div class="text-gray-200 flex font-bold text-sm ">
+                            <img src="./src/images/g_logo.svg"
+                                alt="google_logo">
+                            <div class="px-2 ">Google India
+                            </div>
+                            <div class="h-6 w-6"><svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                    class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                    data-testid="icon-verified">
+                                    <g>
+                                        <path clip-rule="evenodd"
+                                            d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                            fill="#829aab" fill-rule="evenodd"></path>
+                                    </g>
+                                </svg></div>
+
+                        </div>
+                        <div class=" text-gray-700">@googleindia</div>
+                    </div>
+                    <div class="  border my-6  px-4 py-1 rounded-full hover:cursor-pointer bg-white text-black mx-2">
+                        Follow</div>
+
+                </div>
+                <div class="flex justify-between hover:bg-gray-800">
+                    <div class=" flex-col items  hover:cursor-pointer px-4 p-3">
+                        <div class="text-gray-200 flex font-bold text-sm ">
+                            <img class=""
+                                src="./src/images/ms_logo.png"
+                                alt="google_logo">
+                            <div class="px-2 ">Microsoft
+                            </div>
+                            <div class="h-6 w-6"><svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                    class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                    data-testid="icon-verified">
+                                    <g>
+                                        <path clip-rule="evenodd"
+                                            d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                            fill="#829aab" fill-rule="evenodd"></path>
+                                    </g>
+                                </svg></div>
+
+                        </div>
+                        <div class=" text-gray-700">@microsoftindia</div>
+                    </div>
+                    <div class="  border my-6  px-4 py-1 rounded-full bg-white text-black mx-2 hover:cursor-pointer">
+                        Follow</div>
+
+                </div>
+                <div class="flex justify-between hover:bg-gray-800 ">
+                    <div class=" flex-col items hover:cursor-pointer px-4 p-3">
+                        <div class="text-gray-200 flex font-bold text-sm ">
+                            <img src="./src/images/amazon_logo.png"
+                                alt="amazon_logo">
+                            <div class="px-2 ">Amazon
+                            </div>
+                            <div class="h-6 w-6"><svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                    class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                    data-testid="icon-verified">
+                                    <g>
+                                        <path clip-rule="evenodd"
+                                            d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                            fill="#829aab" fill-rule="evenodd"></path>
+                                    </g>
+                                </svg></div>
+
+                        </div>
+                        <div class=" text-gray-700">@amazonindia</div>
+                    </div>
+                    <div class="  border my-6  px-4 py-1 hover:cursor-pointer rounded-full bg-white text-black mx-2">
+                        Follow</div>
+
+                </div>
+
+
+
+                <div class="text-blue-700 hover:bg-gray-800 cursor-pointer mx-4">Show more</div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+</body>
+
+</html>
